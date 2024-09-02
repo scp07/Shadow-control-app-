@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow controler</title>
+    <!-- css link -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="button" class="color-button" value="Change body color">
+    <div class="container ">
+        <h1>Cheake boxshadow with range</h1>
+        <div class="box d-center">
+            <div class="sub-box d-center">
+                <div class="box-label">
+                    <label for="frist">offset X:</label>
+                    <input type="range" id="frist" class="range" min="0" max="30">
+                    <label for="second">offset Y:</label>
+                    <input type="range" id="second" class="range" min="0" max="30">
+                    <label for="three">bluer redius:</label>
+                    <input type="range" id="three" class="range" min="0" max="50">
+                    <label for="three1">bluer spread:</label>
+                    <input type="range" id="three1" class="range" min="0" max="20">
+                    <label for="color">Choice a color:</label>
+                    <input type="color" name="color" id="color">
+                    <input type="button" class="submit" value="Get Value">
+                    <label for="value">copy the value:</label>
+                    <div class="value-input">
+                        <input class="value" placeholder="You can copy all value form here" is="value" onclick="this.select()"/>
+                        <input type="button" class="value-button" value="copy all">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="practise.js"></script>
+</body>
+</html>
